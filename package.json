@@ -1,0 +1,18 @@
+{
+  "author": "Don Park <donpark@docuverse.com> (http://blog.docuverse.com)",
+  "name": "mongeese",
+  "description": "Mongoose multi-database helper",
+  "version": "0.0.1",
+  "main": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/donpark/mongeese.git"
+  },
+  "engines": {
+    "node": ">= v0.4.0"
+  },
+  "dependencies": {
+    "mongoose": ">= 1.1.0"
+  },
+  "devDependencies": {}
+}
