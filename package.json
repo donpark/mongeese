@@ -2,7 +2,7 @@
   "author": "Don Park <donpark@docuverse.com> (http://blog.docuverse.com)",
   "name": "mongeese",
   "description": "Mongoose multi-database helper",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "./index.js",
   "repository": {
     "type": "git",
@@ -12,7 +12,7 @@
     "node": ">= v0.4.0"
   },
   "dependencies": {
-    "mongoose": ">= 1.1.0"
+    "mongoose": "*"
   },
   "devDependencies": {}
 }
