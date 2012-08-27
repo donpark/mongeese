@@ -2,5 +2,5 @@ mongoose = require('mongoose')
     
 exports.create = ->
     mongeese = new mongoose.Mongoose()
-    mongeese[key] = value for own key, value of Mongoose when typeof mongoose[key] is 'undefined'
+    mongeese[key] = value for key, value of mongoose when not mongeese[key]? and mongoose.hasOwnProperty(key)
     mongeese
