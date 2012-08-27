@@ -8,9 +8,9 @@
   exports.create = function() {
     var key, mongeese, value;
     mongeese = new mongoose.Mongoose();
-    for (key in mongoose) {
-      if (!__hasProp.call(mongoose, key)) continue;
-      value = mongoose[key];
+    for (key in Mongoose) {
+      if (!__hasProp.call(Mongoose, key)) continue;
+      value = Mongoose[key];
       if (typeof mongoose[key] === 'undefined') {
         mongeese[key] = value;
       }
